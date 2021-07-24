@@ -1,0 +1,43 @@
+$ pwd
+$ mkdir assignment
+$ cd assigment
+$ git init
+$ git status
+$ git checkout Dev
+$ notepad file1.txt
+$ ls
+$ git add file1.txt
+$ git commit -m "First_added file1.txt"
+$ git checkout Test
+$ notepad file2.txt
+$ notepad file3.txt
+$ ls
+$ git add file2.txt
+$ git commit -m "Second_added file2.txt"
+$ git add file3.txt
+$ git commit -m "Third_added file3.txt"
+$ git switch Dev
+$ notepad file1.txt
+$ git diff
+$ git status
+$ git add file1.txt
+$ git status
+$ git commit -m "First_modified file1.txt"
+$ git branch
+$ git checkout master
+$ git branch
+$ git status
+$ git log
+$ git merge Dev
+$ git merge Test
+$ git status
+$ git log
+$ git remote add origin https://github.com/TarunChaudhary11/assignment.git
+$ git remote -v
+$ git push -u origin master
+$ git clone origin https://github.com/TarunChaudhary11/assignment.git
+$ notepad solution.txt
+$ git add solution.txt
+$ git commit -m "Added solution.txt" 
+$ git status
+$ git push
